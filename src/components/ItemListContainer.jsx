@@ -1,9 +1,16 @@
 import React from "react";
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
     return (
-        <P>ItemListContainer</P>
+        <div className="container py-5">
+            <div className="row">
+                <div className="col-md-12">
+                    <p>{greeting}</p>
+                </div>
+            </div>
+        </div>
     )
 }
 
 export default ItemListContainer;
+

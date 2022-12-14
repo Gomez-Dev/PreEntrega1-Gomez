@@ -11,4 +11,7 @@ body {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
-  
+
+.navbar {
+	background-color: #6BA6CB;
+}
